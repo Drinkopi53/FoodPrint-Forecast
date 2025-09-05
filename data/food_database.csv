@@ -1,0 +1,15 @@
+name,english_name,shelf_life_days,carbon_footprint_kg_co2_per_kg
+Tomat,tomato,7,1.1
+Pisang,banana,5,0.9
+Apel,apple,30,0.5
+Susu,milk,7,1.5
+Roti,bread,5,1.0
+Telur,egg,21,0.8
+Ayam,chicken,2,3.2
+Selada,lettuce,3,0.3
+Beras,rice,365,2.7
+Pasta,pasta,730,1.2
+Keju,cheese,90,8.5
+Daging Sapi,beef,3,27.0
+Daging Babi,pork,3,6.1
+Ikan,fish,2,3.9

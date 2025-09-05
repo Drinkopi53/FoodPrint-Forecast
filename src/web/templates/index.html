@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodPrint Forecast - Prediksi Limbah Pangan</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>FoodPrint Forecast</h1>
+        <p>Sistem Prediksi Limbah Pangan Rumah Tangga</p>
+    </header>
+    
+    <main>
+        <section class="upload-section">
+            <h2>Upload Foto Isi Kulkas</h2>
+            <form id="upload-form" enctype="multipart/form-data">
+                <input type="file" id="fridge-image" name="fridge_image" accept="image/*" required>
+                <button type="submit">Analisis Kulkas</button>
+            </form>
+        </section>
+        
+        <section class="results-section" id="results" style="display: none;">
+            <h2>Hasil Analisis</h2>
+            <div id="analysis-results"></div>
+        </section>
+        
+        <section class="leaderboard-section">
+            <h2>Leaderboard Komunitas</h2>
+            <div id="leaderboard">
+                <!-- Leaderboard will be populated by JavaScript -->
+            </div>
+        </section>
+    </main>
+    
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

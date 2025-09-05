@@ -1,0 +1,12 @@
+pandas
+numpy
+prophet
+opencv-python
+tensorflow
+Pillow
+flask
+scikit-learn
+matplotlib
+seaborn
+requests
+python-dotenv

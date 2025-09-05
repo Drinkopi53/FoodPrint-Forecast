@@ -1,0 +1,23 @@
+[
+  {
+    "username": "Alice",
+    "total_emissions_avoided": 8.2,
+    "total_items_saved": 9,
+    "contributions": 2,
+    "last_contribution": "2025-09-06T00:46:51.986542"
+  },
+  {
+    "username": "Charlie",
+    "total_emissions_avoided": 7.8,
+    "total_items_saved": 10,
+    "contributions": 1,
+    "last_contribution": "2025-09-06T00:46:51.986542"
+  },
+  {
+    "username": "Bob",
+    "total_emissions_avoided": 3.2,
+    "total_items_saved": 4,
+    "contributions": 1,
+    "last_contribution": "2025-09-06T00:46:51.986542"
+  }
+]
